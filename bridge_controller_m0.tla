@@ -33,6 +33,12 @@ AXIOM /\ d \in Nat
   {
     \* # iterations: bound
     while(i < bound) {
+        \* Use the choice operator to simulate the selection of event by some central controller
+        (*
+            When multiple conditions are satisfied, it is non-deterministic as to which will be executed
+        *)
+        either { if(TRUE) { call ML_out(); }; }
+        or { if(TRUE) { call ML_in(); }; };
         i := i + 1;
     }
   }
@@ -41,7 +47,7 @@ AXIOM /\ d \in Nat
 
 =============================================================================
 \* Modification History
-\* Last modified Thu Feb 02 16:03:15 EST 2023 by chiddy00
+\* Last modified Thu Feb 02 16:31:45 EST 2023 by chiddy00
 \* Created Thu Feb 02 12:28:16 EST 2023 by chiddy00
 
 Outside the range of checking - no effects.
