@@ -38,12 +38,12 @@ AXIOM /\ d \in Nat
             When multiple conditions are satisfied, it is non-deterministic as to which will be executed
         *)
         choice: either { 
-            ML_out_guard: if(TRUE) { 
+            ML_out_guard: if(n < d) { 
                 ML_out_occurs: call ML_out(); 
             }; 
         }
         or { 
-            ML_in_guard: if(TRUE) { 
+            ML_in_guard: if(n > 0) { 
                 ML_in_occurs: call ML_in(); 
              }; 
         };
@@ -52,7 +52,7 @@ AXIOM /\ d \in Nat
   }
 }
 *)
-\* BEGIN TRANSLATION (chksum(pcal) = "7058d014" /\ chksum(tla) = "1e9a6e6f")
+\* BEGIN TRANSLATION (chksum(pcal) = "d8d38596" /\ chksum(tla) = "6492b783")
 VARIABLES n, i, pc, stack
 
 vars == << n, i, pc, stack >>
@@ -91,7 +91,7 @@ choice == /\ pc = "choice"
           /\ UNCHANGED << n, i, stack >>
 
 ML_out_guard == /\ pc = "ML_out_guard"
-                /\ IF TRUE
+                /\ IF n < d
                       THEN /\ pc' = "ML_out_occurs"
                       ELSE /\ pc' = "progress"
                 /\ UNCHANGED << n, i, stack >>
@@ -104,7 +104,7 @@ ML_out_occurs == /\ pc = "ML_out_occurs"
                  /\ UNCHANGED << n, i >>
 
 ML_in_guard == /\ pc = "ML_in_guard"
-               /\ IF TRUE
+               /\ IF n > 0
                      THEN /\ pc' = "ML_in_occurs"
                      ELSE /\ pc' = "progress"
                /\ UNCHANGED << n, i, stack >>
@@ -149,7 +149,7 @@ deadlock_free == ML_out_event_guard \/ ML_in_event_guard
 
 =============================================================================
 \* Modification History
-\* Last modified Sun Feb 05 15:50:08 EST 2023 by chiddy00
+\* Last modified Mon Feb 06 01:20:38 EST 2023 by chiddy00
 \* Created Thu Feb 02 12:28:16 EST 2023 by chiddy00
 
 Outside the range of checking - no effects.
