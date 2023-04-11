@@ -1,0 +1,112 @@
+strict digraph DiskGraph {
+edge [colorscheme="paired12"]
+nodesep=0.35;
+subgraph cluster_graph {
+color="white";
+-4016586367306537923 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 1\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_13\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<>>",style = filled]
+-4016586367306537923 -> 1407517282758939978 [label="",color="2",fontcolor="2"];
+1407517282758939978 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 1\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_5\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+1407517282758939978 -> 4852176947791653336 [label="",color="3",fontcolor="3"];
+4852176947791653336 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 1\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_6\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+4852176947791653336 -> 8294567633267065430 [label="",color="4",fontcolor="4"];
+8294567633267065430 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 1\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_7\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+8294567633267065430 -> -7681775415927336255 [label="",color="5",fontcolor="5"];
+-7681775415927336255 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 1\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_8\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 3\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+-7681775415927336255 -> 4550254461435936517 [label="",color="6",fontcolor="6"];
+4550254461435936517 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 1\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_9\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 3\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+4550254461435936517 -> 7405160685315882688 [label="",color="7",fontcolor="7"];
+7405160685315882688 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 1\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_10\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {<<1, 3>>}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 3\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+7405160685315882688 -> 6455065805947321490 [label="",color="8",fontcolor="8"];
+6455065805947321490 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 1\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_11\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {<<1, 3>>, <<3, 1>>}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 3\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+6455065805947321490 -> -7905221128796185745 [label="",color="9",fontcolor="9"];
+-7905221128796185745 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 1\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_12\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {<<1, 3>>, <<3, 1>>, <<0, 0, 3>>}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 3\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+-7905221128796185745 -> 5745694132489748607 [label="",color="10",fontcolor="10"];
+5745694132489748607 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 2\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_7\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {<<1, 3>>, <<3, 1>>, <<0, 0, 3>>}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 3\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+5745694132489748607 -> 6515210952797312151 [label="",color="5",fontcolor="5"];
+6515210952797312151 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 2\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_8\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {<<1, 3>>, <<3, 1>>, <<0, 0, 3>>}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 2\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+6515210952797312151 -> -2171923737313905695 [label="",color="6",fontcolor="6"];
+-2171923737313905695 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 2\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_9\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {<<1, 3>>, <<3, 1>>, <<0, 0, 3>>}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 2\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+-2171923737313905695 -> 6001577194645610616 [label="",color="7",fontcolor="7"];
+6001577194645610616 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 2\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_10\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {<<1, 2>>, <<1, 3>>, <<3, 1>>, <<0, 0, 3>>}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 2\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+6001577194645610616 -> 6024289531912160985 [label="",color="8",fontcolor="8"];
+6024289531912160985 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 2\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_11\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {<<1, 2>>, <<1, 3>>, <<2, 2>>, <<3, 1>>, <<0, 0, 3>>}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 2\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+6024289531912160985 -> -630899543931272163 [label="",color="9",fontcolor="9"];
+-630899543931272163 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 2\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_12\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {<<1, 2>>, <<1, 3>>, <<2, 2>>, <<3, 1>>, <<0, 0, 3>>, <<0, 1, 2>>}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 2\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+-630899543931272163 -> 8070060557050076647 [label="",color="10",fontcolor="10"];
+8070060557050076647 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 3\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_7\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {<<1, 2>>, <<1, 3>>, <<2, 2>>, <<3, 1>>, <<0, 0, 3>>, <<0, 1, 2>>}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 2\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+8070060557050076647 -> -737949306532719339 [label="",color="5",fontcolor="5"];
+-737949306532719339 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 3\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_12\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {<<1, 2>>, <<1, 3>>, <<2, 2>>, <<3, 1>>, <<0, 0, 3>>, <<0, 1, 2>>}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 0\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+-737949306532719339 -> 5189530707453098262 [label="",color="10",fontcolor="10"];
+5189530707453098262 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 4\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_7\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {<<1, 2>>, <<1, 3>>, <<2, 2>>, <<3, 1>>, <<0, 0, 3>>, <<0, 1, 2>>}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 0\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+5189530707453098262 -> -3346908588645456218 [label="",color="5",fontcolor="5"];
+-3346908588645456218 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 4\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_8\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {<<1, 2>>, <<1, 3>>, <<2, 2>>, <<3, 1>>, <<0, 0, 3>>, <<0, 1, 2>>}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+-3346908588645456218 -> -1008229760744897808 [label="",color="6",fontcolor="6"];
+-1008229760744897808 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 4\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_9\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {<<1, 2>>, <<1, 3>>, <<2, 2>>, <<3, 1>>, <<0, 0, 3>>, <<0, 1, 2>>}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+-1008229760744897808 -> -766703607559447712 [label="",color="7",fontcolor="7"];
+-766703607559447712 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 4\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_10\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = {<<1, 1>>, <<1, 2>>, <<1, 3>>, <<2, 2>>, <<3, 1>>, <<0, 0, 3>>, <<0, 1, 2>>}\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+-766703607559447712 -> -1154543088229918348 [label="",color="8",fontcolor="8"];
+-1154543088229918348 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 4\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_11\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = { <<1, 1>>,\n  <<1, 2>>,\n  <<1, 3>>,\n  <<1, 4>>,\n  <<2, 2>>,\n  <<3, 1>>,\n  <<0, 0, 3>>,\n  <<0, 1, 2>> }\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+-1154543088229918348 -> 1891766969426283236 [label="",color="9",fontcolor="9"];
+1891766969426283236 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 4\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_12\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = { <<1, 1>>,\n  <<1, 2>>,\n  <<1, 3>>,\n  <<1, 4>>,\n  <<2, 2>>,\n  <<3, 1>>,\n  <<0, 0, 3>>,\n  <<0, 1, 2>>,\n  <<0, 2, 1>> }\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+1891766969426283236 -> 7009646789130160601 [label="",color="10",fontcolor="10"];
+7009646789130160601 [label="/\\ N = 4\n/\\ i = 1\n/\\ j = 5\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_7\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = { <<1, 1>>,\n  <<1, 2>>,\n  <<1, 3>>,\n  <<1, 4>>,\n  <<2, 2>>,\n  <<3, 1>>,\n  <<0, 0, 3>>,\n  <<0, 1, 2>>,\n  <<0, 2, 1>> }\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+7009646789130160601 -> -3075308840958476177 [label="",color="5",fontcolor="5"];
+-3075308840958476177 [label="/\\ N = 4\n/\\ i = 2\n/\\ j = 5\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_6\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = { <<1, 1>>,\n  <<1, 2>>,\n  <<1, 3>>,\n  <<1, 4>>,\n  <<2, 2>>,\n  <<3, 1>>,\n  <<0, 0, 3>>,\n  <<0, 1, 2>>,\n  <<0, 2, 1>> }\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+-3075308840958476177 -> 8589518601122293194 [label="",color="4",fontcolor="4"];
+8589518601122293194 [label="/\\ N = 4\n/\\ i = 2\n/\\ j = 5\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_7\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = { <<1, 1>>,\n  <<1, 2>>,\n  <<1, 3>>,\n  <<1, 4>>,\n  <<2, 2>>,\n  <<3, 1>>,\n  <<0, 0, 3>>,\n  <<0, 1, 2>>,\n  <<0, 2, 1>> }\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+8589518601122293194 -> 7645764153440579805 [label="",color="5",fontcolor="5"];
+7645764153440579805 [label="/\\ N = 4\n/\\ i = 3\n/\\ j = 5\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_6\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = { <<1, 1>>,\n  <<1, 2>>,\n  <<1, 3>>,\n  <<1, 4>>,\n  <<2, 2>>,\n  <<3, 1>>,\n  <<0, 0, 3>>,\n  <<0, 1, 2>>,\n  <<0, 2, 1>> }\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+7645764153440579805 -> -3999932374678645384 [label="",color="4",fontcolor="4"];
+-3999932374678645384 [label="/\\ N = 4\n/\\ i = 3\n/\\ j = 5\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_7\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = { <<1, 1>>,\n  <<1, 2>>,\n  <<1, 3>>,\n  <<1, 4>>,\n  <<2, 2>>,\n  <<3, 1>>,\n  <<0, 0, 3>>,\n  <<0, 1, 2>>,\n  <<0, 2, 1>> }\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+-3999932374678645384 -> -453468774401566647 [label="",color="5",fontcolor="5"];
+-453468774401566647 [label="/\\ N = 4\n/\\ i = 4\n/\\ j = 5\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_6\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = { <<1, 1>>,\n  <<1, 2>>,\n  <<1, 3>>,\n  <<1, 4>>,\n  <<2, 2>>,\n  <<3, 1>>,\n  <<0, 0, 3>>,\n  <<0, 1, 2>>,\n  <<0, 2, 1>> }\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+-453468774401566647 -> 6616530859713134060 [label="",color="4",fontcolor="4"];
+6616530859713134060 [label="/\\ N = 4\n/\\ i = 4\n/\\ j = 5\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_7\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = { <<1, 1>>,\n  <<1, 2>>,\n  <<1, 3>>,\n  <<1, 4>>,\n  <<2, 2>>,\n  <<3, 1>>,\n  <<0, 0, 3>>,\n  <<0, 1, 2>>,\n  <<0, 2, 1>> }\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+6616530859713134060 -> 5115402631860250875 [label="",color="5",fontcolor="5"];
+5115402631860250875 [label="/\\ N = 4\n/\\ i = 5\n/\\ j = 5\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_6\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = { <<1, 1>>,\n  <<1, 2>>,\n  <<1, 3>>,\n  <<1, 4>>,\n  <<2, 2>>,\n  <<3, 1>>,\n  <<0, 0, 3>>,\n  <<0, 1, 2>>,\n  <<0, 2, 1>> }\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<[pc |-> \"Lbl_14\", procedure |-> \"isValid\"]>>"];
+5115402631860250875 -> 494020799424657940 [label="",color="4",fontcolor="4"];
+494020799424657940 [label="/\\ N = 4\n/\\ i = 5\n/\\ j = 5\n/\\ board_valid = FALSE\n/\\ pc = \"Lbl_14\"\n/\\ row = 1\n/\\ SQRT_N = 2\n/\\ res_set = { <<1, 1>>,\n  <<1, 2>>,\n  <<1, 3>>,\n  <<1, 4>>,\n  <<2, 2>>,\n  <<3, 1>>,\n  <<0, 0, 3>>,\n  <<0, 1, 2>>,\n  <<0, 2, 1>> }\n/\\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>\n/\\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>\n/\\ validSet = {1, 2, 3, 4}\n/\\ col = 1\n/\\ solved = FALSE\n/\\ element = 1\n/\\ stack = <<>>"];
+{rank = same; -4016586367306537923;}
+{rank = same; 1407517282758939978;}
+{rank = same; 4852176947791653336;}
+{rank = same; 8294567633267065430;}
+{rank = same; -7681775415927336255;}
+{rank = same; 4550254461435936517;}
+{rank = same; 7405160685315882688;}
+{rank = same; 6455065805947321490;}
+{rank = same; -7905221128796185745;}
+{rank = same; 5745694132489748607;}
+{rank = same; 6515210952797312151;}
+{rank = same; -2171923737313905695;}
+{rank = same; 6001577194645610616;}
+{rank = same; 6024289531912160985;}
+{rank = same; -630899543931272163;}
+{rank = same; 8070060557050076647;}
+{rank = same; -737949306532719339;}
+{rank = same; 5189530707453098262;}
+{rank = same; -3346908588645456218;}
+{rank = same; -1008229760744897808;}
+{rank = same; -766703607559447712;}
+{rank = same; -1154543088229918348;}
+{rank = same; 1891766969426283236;}
+{rank = same; 7009646789130160601;}
+{rank = same; -3075308840958476177;}
+{rank = same; 8589518601122293194;}
+{rank = same; 7645764153440579805;}
+{rank = same; -3999932374678645384;}
+{rank = same; -453468774401566647;}
+{rank = same; 6616530859713134060;}
+{rank = same; 5115402631860250875;}
+}
+subgraph cluster_legend {graph[style=bold];label = "Next State Actions" style="solid"
+node [ labeljust="l",colorscheme="paired12",style=filled,shape=record ]
+Lbl_6 [label="Lbl_6",fillcolor=4]
+Lbl_5 [label="Lbl_5",fillcolor=3]
+Lbl_8 [label="Lbl_8",fillcolor=6]
+Lbl_7 [label="Lbl_7",fillcolor=5]
+Lbl_13 [label="Lbl_13",fillcolor=2]
+Lbl_9 [label="Lbl_9",fillcolor=7]
+Lbl_12 [label="Lbl_12",fillcolor=10]
+Lbl_11 [label="Lbl_11",fillcolor=9]
+Lbl_10 [label="Lbl_10",fillcolor=8]
+}}

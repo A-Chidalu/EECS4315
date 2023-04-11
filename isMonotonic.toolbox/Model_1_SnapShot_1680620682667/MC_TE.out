@@ -1,0 +1,10 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.16 of 31 December 2020 (rev: cdddf55)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 85 and seed 5863177284031130203 with 4 workers on 8 cores with 2368MB heap and 5324MB offheap memory [pid: 1388242] (Linux 4.18.0-425.13.1.el8_7.x86_64 amd64, AdoptOpenJDK 14.0.1 x86_64, OffHeapDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /eecs/home/chiddy00/Desktop/EECS4315/isMonotonic.toolbox/Model_1/MC.tla

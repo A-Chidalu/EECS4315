@@ -1,0 +1,22 @@
+strict digraph DiskGraph {
+edge [colorscheme="paired12"]
+nodesep=0.35;
+subgraph cluster_graph {
+color="white";
+5550475244990332120 [label="/\\ result = -1\n/\\ lo = 1\n/\\ hi = 6\n/\\ pc = \"precond1\"\n/\\ mid = 1",style = filled]
+5550475244990332120 -> -704120486379470091 [label="",color="2",fontcolor="2"];
+-704120486379470091 [label="/\\ result = -1\n/\\ lo = 1\n/\\ hi = 6\n/\\ pc = \"precond2\"\n/\\ mid = 1"];
+-704120486379470091 -> 2797648396316842632 [label="",color="3",fontcolor="3"];
+2797648396316842632 [label="/\\ result = -1\n/\\ lo = 1\n/\\ hi = 6\n/\\ pc = \"openWhile\"\n/\\ mid = 1"];
+2797648396316842632 -> 3876215400828753827 [label="",color="4",fontcolor="4"];
+3876215400828753827 [label="/\\ result = -1\n/\\ lo = 1\n/\\ hi = 6\n/\\ pc = \"calMid\"\n/\\ mid = 1"];
+{rank = same; 5550475244990332120;}
+{rank = same; -704120486379470091;}
+{rank = same; 2797648396316842632;}
+}
+subgraph cluster_legend {graph[style=bold];label = "Next State Actions" style="solid"
+node [ labeljust="l",colorscheme="paired12",style=filled,shape=record ]
+openWhile [label="openWhile",fillcolor=4]
+precond1 [label="precond1",fillcolor=2]
+precond2 [label="precond2",fillcolor=3]
+}}

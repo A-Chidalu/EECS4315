@@ -1,0 +1,567 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.16 of 31 December 2020 (rev: cdddf55)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 101 and seed -8849913758896082675 with 6 workers on 12 cores with 1157MB heap and 2603MB offheap memory [pid: 167814] (Linux 4.18.0-425.3.1.el8.x86_64 amd64, AdoptOpenJDK 14.0.1 x86_64, OffHeapDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /eecs/home/chiddy00/Desktop/EECS4315/decideRPSGameResult.toolbox/Model_1/MC.tla
+Parsing file /eecs/home/chiddy00/Desktop/EECS4315/decideRPSGameResult.toolbox/Model_1/decideRPSGameResult.tla
+Labels added.
+Parsing file /eecs/local/pkg/tlatoolbox-1.7.1/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/TLC.tla
+Parsing file /eecs/local/pkg/tlatoolbox-1.7.1/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Integers.tla
+Parsing file /eecs/local/pkg/tlatoolbox-1.7.1/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Sequences.tla
+Parsing file /eecs/local/pkg/tlatoolbox-1.7.1/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Naturals.tla
+Parsing file /eecs/local/pkg/tlatoolbox-1.7.1/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/FiniteSets.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module decideRPSGameResult
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2023-03-05 00:26:25)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 2 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 4 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 8 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 16 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 32 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 64 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 81 distinct states generated at 2023-03-05 00:26:26.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2193:0 @!@!@
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.4E-15
+@!@!@ENDMSG 2193 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2023-03-05 00:26:26
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 107, col 1 to line 107, col 4 of module decideRPSGameResult>: 81:81
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 108, col 12 to line 108, col 35 of module decideRPSGameResult: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 109, col 12 to line 109, col 35 of module decideRPSGameResult: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 110, col 12 to line 110, col 35 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 111, col 12 to line 111, col 35 of module decideRPSGameResult: 27
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 114, col 12 to line 114, col 24 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 115, col 12 to line 115, col 24 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 116, col 12 to line 116, col 22 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 117, col 12 to line 117, col 23 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_1 line 119, col 1 to line 119, col 5 of module decideRPSGameResult>: 81:81
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 119, col 13 to line 119, col 24 of module decideRPSGameResult: 405
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 119, col 13 to line 119, col 14 of module decideRPSGameResult: 324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 120, col 16 to line 120, col 39 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 120, col 16 to line 120, col 25 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 120, col 30 to line 120, col 39 of module decideRPSGameResult: 27
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 121, col 21 to line 122, col 73 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 123, col 27 to line 123, col 50 of module decideRPSGameResult: 72
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 123, col 27 to line 123, col 36 of module decideRPSGameResult: 72
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 123, col 41 to line 123, col 50 of module decideRPSGameResult: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 124, col 35 to line 124, col 84 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 125, col 35 to line 125, col 65 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 126, col 38 to line 126, col 61 of module decideRPSGameResult: 63
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 126, col 38 to line 126, col 47 of module decideRPSGameResult: 63
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 126, col 52 to line 126, col 61 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 127, col 46 to line 127, col 95 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 128, col 46 to line 128, col 76 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 129, col 49 to line 129, col 72 of module decideRPSGameResult: 54
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 129, col 49 to line 129, col 58 of module decideRPSGameResult: 54
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 129, col 63 to line 129, col 72 of module decideRPSGameResult: 27
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 57 to line 130, col 106 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 131, col 57 to line 131, col 87 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 132, col 60 to line 132, col 83 of module decideRPSGameResult: 45
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 132, col 60 to line 132, col 69 of module decideRPSGameResult: 45
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 132, col 74 to line 132, col 83 of module decideRPSGameResult: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 133, col 65 to line 134, col 117 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 135, col 71 to line 135, col 94 of module decideRPSGameResult: 36
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 135, col 71 to line 135, col 80 of module decideRPSGameResult: 36
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 135, col 85 to line 135, col 94 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 136, col 79 to line 136, col 128 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 137, col 79 to line 137, col 109 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 138, col 82 to line 138, col 105 of module decideRPSGameResult: 27
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 139, col 90 to line 139, col 139 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 140, col 90 to line 140, col 120 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 141, col 93 to line 141, col 116 of module decideRPSGameResult: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 142, col 101 to line 142, col 150 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 143, col 101 to line 143, col 131 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 144, col 98 to line 145, col 150 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 146, col 16 to line 146, col 39 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 146, col 16 to line 146, col 25 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 146, col 30 to line 146, col 39 of module decideRPSGameResult: 27
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 147, col 21 to line 147, col 36 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 148, col 27 to line 148, col 50 of module decideRPSGameResult: 72
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 148, col 27 to line 148, col 36 of module decideRPSGameResult: 72
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 148, col 41 to line 148, col 50 of module decideRPSGameResult: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 149, col 32 to line 149, col 47 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 150, col 38 to line 150, col 61 of module decideRPSGameResult: 63
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 150, col 38 to line 150, col 47 of module decideRPSGameResult: 63
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 150, col 52 to line 150, col 61 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 151, col 43 to line 151, col 58 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 152, col 49 to line 152, col 72 of module decideRPSGameResult: 54
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 152, col 49 to line 152, col 58 of module decideRPSGameResult: 54
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 152, col 63 to line 152, col 72 of module decideRPSGameResult: 27
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 153, col 54 to line 153, col 69 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 154, col 60 to line 154, col 83 of module decideRPSGameResult: 45
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 154, col 60 to line 154, col 69 of module decideRPSGameResult: 45
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 154, col 74 to line 154, col 83 of module decideRPSGameResult: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 155, col 65 to line 155, col 80 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 156, col 71 to line 156, col 94 of module decideRPSGameResult: 36
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 156, col 71 to line 156, col 80 of module decideRPSGameResult: 36
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 156, col 85 to line 156, col 94 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 157, col 76 to line 157, col 91 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 158, col 82 to line 158, col 105 of module decideRPSGameResult: 27
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 159, col 87 to line 159, col 102 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 160, col 93 to line 160, col 116 of module decideRPSGameResult: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 98 to line 161, col 113 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 162, col 98 to line 162, col 114 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 163, col 13 to line 163, col 69 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_2 line 165, col 1 to line 165, col 5 of module decideRPSGameResult>: 9:9
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 165, col 13 to line 165, col 24 of module decideRPSGameResult: 333
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 165, col 13 to line 165, col 14 of module decideRPSGameResult: 324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 166, col 13 to line 166, col 62 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 167, col 13 to line 167, col 62 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 168, col 13 to line 168, col 26 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 169, col 13 to line 169, col 69 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_3 line 171, col 1 to line 171, col 5 of module decideRPSGameResult>: 9:9
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 171, col 13 to line 171, col 24 of module decideRPSGameResult: 333
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 171, col 13 to line 171, col 14 of module decideRPSGameResult: 324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 172, col 13 to line 172, col 62 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 173, col 13 to line 173, col 26 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 174, col 13 to line 175, col 38 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_4 line 177, col 1 to line 177, col 5 of module decideRPSGameResult>: 9:9
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 177, col 13 to line 177, col 24 of module decideRPSGameResult: 333
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 177, col 13 to line 177, col 14 of module decideRPSGameResult: 324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 178, col 13 to line 178, col 62 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 179, col 13 to line 179, col 26 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 180, col 13 to line 181, col 38 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_5 line 183, col 1 to line 183, col 5 of module decideRPSGameResult>: 9:9
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 183, col 13 to line 183, col 24 of module decideRPSGameResult: 333
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 183, col 13 to line 183, col 14 of module decideRPSGameResult: 324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 184, col 13 to line 184, col 62 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 185, col 13 to line 185, col 26 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 186, col 13 to line 187, col 38 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_6 line 189, col 1 to line 189, col 5 of module decideRPSGameResult>: 9:9
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 189, col 13 to line 189, col 24 of module decideRPSGameResult: 333
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 189, col 13 to line 189, col 14 of module decideRPSGameResult: 324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 190, col 13 to line 190, col 62 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 191, col 13 to line 191, col 62 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 192, col 13 to line 192, col 26 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 193, col 13 to line 193, col 69 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_7 line 195, col 1 to line 195, col 5 of module decideRPSGameResult>: 9:9
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 195, col 13 to line 195, col 24 of module decideRPSGameResult: 333
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 195, col 13 to line 195, col 14 of module decideRPSGameResult: 324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 196, col 13 to line 196, col 62 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 197, col 13 to line 197, col 26 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 198, col 13 to line 199, col 38 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_8 line 201, col 1 to line 201, col 5 of module decideRPSGameResult>: 9:9
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 201, col 13 to line 201, col 24 of module decideRPSGameResult: 333
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 201, col 13 to line 201, col 14 of module decideRPSGameResult: 324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 202, col 13 to line 202, col 62 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 203, col 13 to line 203, col 26 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 204, col 13 to line 205, col 38 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_9 line 207, col 1 to line 207, col 5 of module decideRPSGameResult>: 9:9
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 207, col 13 to line 207, col 24 of module decideRPSGameResult: 333
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 207, col 13 to line 207, col 14 of module decideRPSGameResult: 324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 208, col 13 to line 208, col 62 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 209, col 13 to line 209, col 26 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 210, col 13 to line 211, col 38 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_10 line 213, col 1 to line 213, col 6 of module decideRPSGameResult>: 9:9
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 213, col 14 to line 213, col 26 of module decideRPSGameResult: 333
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 213, col 14 to line 213, col 15 of module decideRPSGameResult: 324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 214, col 14 to line 214, col 63 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 215, col 14 to line 215, col 63 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 216, col 14 to line 216, col 27 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 217, col 14 to line 217, col 70 of module decideRPSGameResult: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_11 line 219, col 1 to line 219, col 6 of module decideRPSGameResult>: 81:81
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 219, col 14 to line 219, col 26 of module decideRPSGameResult: 405
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 219, col 14 to line 219, col 15 of module decideRPSGameResult: 324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 220, col 17 to line 220, col 61 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 221, col 25 to line 221, col 37 of module decideRPSGameResult: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 222, col 25 to line 222, col 50 of module decideRPSGameResult: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 223, col 28 to line 223, col 72 of module decideRPSGameResult: 65
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 224, col 33 to line 225, col 45 of module decideRPSGameResult: 40
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 226, col 33 to line 227, col 49 of module decideRPSGameResult: 25
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 228, col 25 to line 228, col 38 of module decideRPSGameResult: 65
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 229, col 14 to line 230, col 66 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 229, col 21 to line 229, col 112 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 229, col 21 to line 229, col 80 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 229, col 22 to line 229, col 47 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 229, col 22 to line 229, col 38 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 229, col 22 to line 229, col 27 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 229, col 32 to line 229, col 38 of module decideRPSGameResult: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 229, col 43 to line 229, col 47 of module decideRPSGameResult: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 229, col 54 to line 229, col 79 of module decideRPSGameResult: 65
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 229, col 54 to line 229, col 70 of module decideRPSGameResult: 65
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 229, col 75 to line 229, col 79 of module decideRPSGameResult: 40
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 229, col 86 to line 229, col 111 of module decideRPSGameResult: 25
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 231, col 14 to line 231, col 25 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 232, col 14 to line 233, col 50 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Terminating line 236, col 1 to line 236, col 11 of module decideRPSGameResult>: 0:81
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 236, col 16 to line 236, col 26 of module decideRPSGameResult: 405
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 236, col 16 to line 236, col 17 of module decideRPSGameResult: 324
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 236, col 31 to line 236, col 44 of module decideRPSGameResult: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(4) at 2023-03-05 00:26:26: 405 states generated (17,406 s/min), 324 distinct states found (13,925 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+405 states generated, 324 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 4.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 1 and the 95th percentile is 1).
+@!@!@ENDMSG 2268 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 1411ms at (2023-03-05 00:26:26)
+@!@!@ENDMSG 2186 @!@!@

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.lamport.tla.toolbox.tool.tlc.modelCheck">
+    <stringAttribute key="configurationName" value="Model_1"/>
+    <intAttribute key="distributedFPSetCount" value="0"/>
+    <stringAttribute key="distributedNetworkInterface" value="130.63.96.172"/>
+    <intAttribute key="distributedNodesCount" value="1"/>
+    <stringAttribute key="distributedTLC" value="off"/>
+    <intAttribute key="fpIndex" value="101"/>
+    <intAttribute key="maxHeapSize" value="25"/>
+    <stringAttribute key="modelBehaviorInit" value=""/>
+    <stringAttribute key="modelBehaviorNext" value=""/>
+    <stringAttribute key="modelBehaviorSpec" value="Spec"/>
+    <intAttribute key="modelBehaviorSpecType" value="1"/>
+    <stringAttribute key="modelBehaviorVars" value="numRoundsWonByPlayer1, numRoundsWonByPlayer2, p2win, p1win, tie, p1r1, p1r2, p2r1, p2r2, pc"/>
+    <stringAttribute key="modelComments" value=""/>
+    <booleanAttribute key="modelCorrectnessCheckDeadlock" value="true"/>
+    <listAttribute key="modelCorrectnessInvariants"/>
+    <listAttribute key="modelCorrectnessProperties">
+        <listEntry value="0Termination"/>
+    </listAttribute>
+    <intAttribute key="modelEditorOpenTabs" value="8"/>
+    <stringAttribute key="modelExpressionEval" value=""/>
+    <listAttribute key="modelParameterConstants"/>
+    <intAttribute key="modelVersion" value="20191005"/>
+    <intAttribute key="numberOfWorkers" value="6"/>
+    <stringAttribute key="result.mail.address" value=""/>
+    <stringAttribute key="specName" value="decideRPSGameResult"/>
+    <stringAttribute key="tlcResourcesProfile" value="local custom"/>
+</launchConfiguration>

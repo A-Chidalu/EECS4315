@@ -1,0 +1,1098 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.16 of 31 December 2020 (rev: cdddf55)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 33 and seed 411278179194566538 with 2 workers on 4 cores with 1173MB heap and 2637MB offheap memory [pid: 1145666] (Linux 4.18.0-425.3.1.el8.x86_64 amd64, AdoptOpenJDK 14.0.1 x86_64, OffHeapDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /eecs/home/chiddy00/Desktop/EECS4315/sudoku.toolbox/Model_1/MC.tla
+Parsing file /eecs/home/chiddy00/Desktop/EECS4315/sudoku.toolbox/Model_1/sudoku.tla
+Labels added.
+Parsing file /eecs/local/pkg/tlatoolbox-1.7.1/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/TLC.tla
+Parsing file /eecs/local/pkg/tlatoolbox-1.7.1/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Integers.tla
+Parsing file /eecs/local/pkg/tlatoolbox-1.7.1/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Sequences.tla
+Parsing file /eecs/local/pkg/tlatoolbox-1.7.1/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Naturals.tla
+Parsing file /eecs/local/pkg/tlatoolbox-1.7.1/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/FiniteSets.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module sudoku
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2023-04-10 23:12:03)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2023-04-10 23:12:04.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2132:1 @!@!@
+The first argument of Assert evaluated to FALSE; the second argument was:
+"Failure of assertion at line 90, column 13."
+@!@!@ENDMSG 2132 @!@!@
+@!@!@STARTMSG 2121:1 @!@!@
+The behavior up to this point is:
+@!@!@ENDMSG 2121 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+1: <Initial predicate>
+/\ N = 4
+/\ i = 1
+/\ j = 1
+/\ board_valid = FALSE
+/\ pc = "Lbl_13"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+2: <Lbl_13 line 241, col 11 to line 247, col 63 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 1
+/\ board_valid = FALSE
+/\ pc = "Lbl_5"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+3: <Lbl_5 line 169, col 10 to line 177, col 33 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 1
+/\ board_valid = FALSE
+/\ pc = "Lbl_6"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+4: <Lbl_6 line 179, col 10 to line 190, col 46 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 1
+/\ board_valid = FALSE
+/\ pc = "Lbl_7"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+5: <Lbl_7 line 192, col 10 to line 205, col 54 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 1
+/\ board_valid = FALSE
+/\ pc = "Lbl_8"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 3
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+6: <Lbl_8 line 213, col 10 to line 217, col 63 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 1
+/\ board_valid = FALSE
+/\ pc = "Lbl_9"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 3
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+7: <Lbl_9 line 219, col 10 to line 224, col 55 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 1
+/\ board_valid = FALSE
+/\ pc = "Lbl_10"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {<<1, 3>>}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 3
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+8: <Lbl_10 line 226, col 11 to line 230, col 64 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 1
+/\ board_valid = FALSE
+/\ pc = "Lbl_11"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {<<1, 3>>, <<3, 1>>}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 3
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+9: <Lbl_11 line 232, col 11 to line 236, col 64 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 1
+/\ board_valid = FALSE
+/\ pc = "Lbl_12"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {<<1, 3>>, <<3, 1>>, <<0, 0, 3>>}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 3
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+10: <Lbl_12 line 207, col 11 to line 211, col 67 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 2
+/\ board_valid = FALSE
+/\ pc = "Lbl_7"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {<<1, 3>>, <<3, 1>>, <<0, 0, 3>>}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 3
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+11: <Lbl_7 line 192, col 10 to line 205, col 54 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 2
+/\ board_valid = FALSE
+/\ pc = "Lbl_8"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {<<1, 3>>, <<3, 1>>, <<0, 0, 3>>}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 2
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+12: <Lbl_8 line 213, col 10 to line 217, col 63 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 2
+/\ board_valid = FALSE
+/\ pc = "Lbl_9"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {<<1, 3>>, <<3, 1>>, <<0, 0, 3>>}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 2
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+13: <Lbl_9 line 219, col 10 to line 224, col 55 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 2
+/\ board_valid = FALSE
+/\ pc = "Lbl_10"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {<<1, 2>>, <<1, 3>>, <<3, 1>>, <<0, 0, 3>>}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 2
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+14: <Lbl_10 line 226, col 11 to line 230, col 64 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 2
+/\ board_valid = FALSE
+/\ pc = "Lbl_11"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {<<1, 2>>, <<1, 3>>, <<2, 2>>, <<3, 1>>, <<0, 0, 3>>}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 2
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+15: <Lbl_11 line 232, col 11 to line 236, col 64 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 2
+/\ board_valid = FALSE
+/\ pc = "Lbl_12"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {<<1, 2>>, <<1, 3>>, <<2, 2>>, <<3, 1>>, <<0, 0, 3>>, <<0, 1, 2>>}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 2
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+16: <Lbl_12 line 207, col 11 to line 211, col 67 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 3
+/\ board_valid = FALSE
+/\ pc = "Lbl_7"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {<<1, 2>>, <<1, 3>>, <<2, 2>>, <<3, 1>>, <<0, 0, 3>>, <<0, 1, 2>>}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 2
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+17: <Lbl_7 line 192, col 10 to line 205, col 54 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 3
+/\ board_valid = FALSE
+/\ pc = "Lbl_12"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {<<1, 2>>, <<1, 3>>, <<2, 2>>, <<3, 1>>, <<0, 0, 3>>, <<0, 1, 2>>}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 0
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+18: <Lbl_12 line 207, col 11 to line 211, col 67 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 4
+/\ board_valid = FALSE
+/\ pc = "Lbl_7"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {<<1, 2>>, <<1, 3>>, <<2, 2>>, <<3, 1>>, <<0, 0, 3>>, <<0, 1, 2>>}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 0
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+19: <Lbl_7 line 192, col 10 to line 205, col 54 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 4
+/\ board_valid = FALSE
+/\ pc = "Lbl_8"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {<<1, 2>>, <<1, 3>>, <<2, 2>>, <<3, 1>>, <<0, 0, 3>>, <<0, 1, 2>>}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+20: <Lbl_8 line 213, col 10 to line 217, col 63 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 4
+/\ board_valid = FALSE
+/\ pc = "Lbl_9"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {<<1, 2>>, <<1, 3>>, <<2, 2>>, <<3, 1>>, <<0, 0, 3>>, <<0, 1, 2>>}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+21: <Lbl_9 line 219, col 10 to line 224, col 55 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 4
+/\ board_valid = FALSE
+/\ pc = "Lbl_10"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = {<<1, 1>>, <<1, 2>>, <<1, 3>>, <<2, 2>>, <<3, 1>>, <<0, 0, 3>>, <<0, 1, 2>>}
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+22: <Lbl_10 line 226, col 11 to line 230, col 64 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 4
+/\ board_valid = FALSE
+/\ pc = "Lbl_11"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = { <<1, 1>>,
+  <<1, 2>>,
+  <<1, 3>>,
+  <<1, 4>>,
+  <<2, 2>>,
+  <<3, 1>>,
+  <<0, 0, 3>>,
+  <<0, 1, 2>> }
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+23: <Lbl_11 line 232, col 11 to line 236, col 64 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 4
+/\ board_valid = FALSE
+/\ pc = "Lbl_12"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = { <<1, 1>>,
+  <<1, 2>>,
+  <<1, 3>>,
+  <<1, 4>>,
+  <<2, 2>>,
+  <<3, 1>>,
+  <<0, 0, 3>>,
+  <<0, 1, 2>>,
+  <<0, 2, 1>> }
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+24: <Lbl_12 line 207, col 11 to line 211, col 67 of module sudoku>
+/\ N = 4
+/\ i = 1
+/\ j = 5
+/\ board_valid = FALSE
+/\ pc = "Lbl_7"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = { <<1, 1>>,
+  <<1, 2>>,
+  <<1, 3>>,
+  <<1, 4>>,
+  <<2, 2>>,
+  <<3, 1>>,
+  <<0, 0, 3>>,
+  <<0, 1, 2>>,
+  <<0, 2, 1>> }
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+25: <Lbl_7 line 192, col 10 to line 205, col 54 of module sudoku>
+/\ N = 4
+/\ i = 2
+/\ j = 5
+/\ board_valid = FALSE
+/\ pc = "Lbl_6"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = { <<1, 1>>,
+  <<1, 2>>,
+  <<1, 3>>,
+  <<1, 4>>,
+  <<2, 2>>,
+  <<3, 1>>,
+  <<0, 0, 3>>,
+  <<0, 1, 2>>,
+  <<0, 2, 1>> }
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+26: <Lbl_6 line 179, col 10 to line 190, col 46 of module sudoku>
+/\ N = 4
+/\ i = 2
+/\ j = 5
+/\ board_valid = FALSE
+/\ pc = "Lbl_7"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = { <<1, 1>>,
+  <<1, 2>>,
+  <<1, 3>>,
+  <<1, 4>>,
+  <<2, 2>>,
+  <<3, 1>>,
+  <<0, 0, 3>>,
+  <<0, 1, 2>>,
+  <<0, 2, 1>> }
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+27: <Lbl_7 line 192, col 10 to line 205, col 54 of module sudoku>
+/\ N = 4
+/\ i = 3
+/\ j = 5
+/\ board_valid = FALSE
+/\ pc = "Lbl_6"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = { <<1, 1>>,
+  <<1, 2>>,
+  <<1, 3>>,
+  <<1, 4>>,
+  <<2, 2>>,
+  <<3, 1>>,
+  <<0, 0, 3>>,
+  <<0, 1, 2>>,
+  <<0, 2, 1>> }
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+28: <Lbl_6 line 179, col 10 to line 190, col 46 of module sudoku>
+/\ N = 4
+/\ i = 3
+/\ j = 5
+/\ board_valid = FALSE
+/\ pc = "Lbl_7"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = { <<1, 1>>,
+  <<1, 2>>,
+  <<1, 3>>,
+  <<1, 4>>,
+  <<2, 2>>,
+  <<3, 1>>,
+  <<0, 0, 3>>,
+  <<0, 1, 2>>,
+  <<0, 2, 1>> }
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+29: <Lbl_7 line 192, col 10 to line 205, col 54 of module sudoku>
+/\ N = 4
+/\ i = 4
+/\ j = 5
+/\ board_valid = FALSE
+/\ pc = "Lbl_6"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = { <<1, 1>>,
+  <<1, 2>>,
+  <<1, 3>>,
+  <<1, 4>>,
+  <<2, 2>>,
+  <<3, 1>>,
+  <<0, 0, 3>>,
+  <<0, 1, 2>>,
+  <<0, 2, 1>> }
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+30: <Lbl_6 line 179, col 10 to line 190, col 46 of module sudoku>
+/\ N = 4
+/\ i = 4
+/\ j = 5
+/\ board_valid = FALSE
+/\ pc = "Lbl_7"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = { <<1, 1>>,
+  <<1, 2>>,
+  <<1, 3>>,
+  <<1, 4>>,
+  <<2, 2>>,
+  <<3, 1>>,
+  <<0, 0, 3>>,
+  <<0, 1, 2>>,
+  <<0, 2, 1>> }
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+31: <Lbl_7 line 192, col 10 to line 205, col 54 of module sudoku>
+/\ N = 4
+/\ i = 5
+/\ j = 5
+/\ board_valid = FALSE
+/\ pc = "Lbl_6"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = { <<1, 1>>,
+  <<1, 2>>,
+  <<1, 3>>,
+  <<1, 4>>,
+  <<2, 2>>,
+  <<3, 1>>,
+  <<0, 0, 3>>,
+  <<0, 1, 2>>,
+  <<0, 2, 1>> }
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<[pc |-> "Lbl_14", procedure |-> "isValid"]>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+32: <Lbl_6 line 179, col 10 to line 190, col 46 of module sudoku>
+/\ N = 4
+/\ i = 5
+/\ j = 5
+/\ board_valid = FALSE
+/\ pc = "Lbl_14"
+/\ row = 1
+/\ SQRT_N = 2
+/\ res_set = { <<1, 1>>,
+  <<1, 2>>,
+  <<1, 3>>,
+  <<1, 4>>,
+  <<2, 2>>,
+  <<3, 1>>,
+  <<0, 0, 3>>,
+  <<0, 1, 2>>,
+  <<0, 2, 1>> }
+/\ board = <<<<3, 2, 0, 1>>, <<4, 0, 0, 3>>, <<2, 3, 1, 4>>, <<0, 4, 0, 2>>>>
+/\ res = <<1, 3, 3, 1, 0, 0, 3, 1, 2, 2, 2, 0, 1, 2, 1, 1, 1, 4, 0, 2, 1>>
+/\ validSet = {1, 2, 3, 4}
+/\ col = 1
+/\ solved = FALSE
+/\ element = 1
+/\ stack = <<>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2103:1 @!@!@
+The error occurred when TLC was evaluating the nested
+expressions at the following positions:
+0. Line 249, column 11 to line 254, column 70 in sudoku
+1. Line 249, column 14 to line 249, column 26 in sudoku
+2. Line 250, column 14 to line 251, column 66 in sudoku
+
+
+@!@!@ENDMSG 2103 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2023-04-10 23:12:04
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 108, col 1 to line 108, col 4 of module sudoku>: 2:2
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 109, col 9 to line 126, col 24 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_1 line 128, col 1 to line 128, col 5 of module sudoku>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 128, col 13 to line 128, col 24 of module sudoku: 64
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 129, col 13 to line 131, col 30 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 132, col 13 to line 132, col 25 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 133, col 13 to line 134, col 59 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_2 line 136, col 1 to line 136, col 5 of module sudoku>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 136, col 13 to line 136, col 24 of module sudoku: 64
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 137, col 13 to line 137, col 18 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 138, col 13 to line 138, col 18 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 139, col 13 to line 139, col 25 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 140, col 13 to line 141, col 63 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_3 line 143, col 1 to line 143, col 5 of module sudoku>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 143, col 13 to line 143, col 24 of module sudoku: 64
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 145, col 24 to line 145, col 36 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 146, col 24 to line 146, col 39 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 147, col 24 to line 147, col 56 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 148, col 24 to line 148, col 36 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 149, col 13 to line 150, col 63 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_4 line 152, col 1 to line 152, col 5 of module sudoku>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 152, col 13 to line 152, col 24 of module sudoku: 64
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 155, col 35 to line 155, col 49 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 157, col 35 to line 157, col 50 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 158, col 24 to line 158, col 33 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 159, col 24 to line 159, col 36 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 160, col 24 to line 160, col 29 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 24 to line 161, col 33 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 162, col 24 to line 162, col 36 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 163, col 24 to line 163, col 48 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 164, col 13 to line 165, col 55 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_5 line 169, col 1 to line 169, col 5 of module sudoku>: 1:2
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 169, col 13 to line 169, col 24 of module sudoku: 66
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 169, col 13 to line 169, col 14 of module sudoku: 64
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 170, col 13 to line 170, col 24 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 171, col 13 to line 171, col 25 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 172, col 13 to line 172, col 32 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 173, col 13 to line 173, col 18 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 174, col 13 to line 174, col 18 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 175, col 13 to line 175, col 25 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 176, col 13 to line 177, col 33 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_6 line 179, col 1 to line 179, col 5 of module sudoku>: 5:10
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 179, col 13 to line 179, col 24 of module sudoku: 73
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 179, col 13 to line 179, col 14 of module sudoku: 63
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 180, col 16 to line 180, col 21 of module sudoku: 10
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 181, col 24 to line 181, col 36 of module sudoku: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 182, col 24 to line 182, col 57 of module sudoku: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 183, col 27 to line 183, col 57 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 184, col 35 to line 184, col 53 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 185, col 35 to line 185, col 38 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 186, col 35 to line 186, col 55 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 187, col 24 to line 187, col 43 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 188, col 24 to line 188, col 43 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 189, col 13 to line 190, col 46 of module sudoku: 10
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_7 line 192, col 1 to line 192, col 5 of module sudoku>: 8:16
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 192, col 13 to line 192, col 24 of module sudoku: 74
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 192, col 13 to line 192, col 14 of module sudoku: 58
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 193, col 16 to line 193, col 21 of module sudoku: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 194, col 24 to line 194, col 45 of module sudoku: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 195, col 27 to line 195, col 38 of module sudoku: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 196, col 32 to line 197, col 47 of module sudoku: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 198, col 32 to line 199, col 44 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 200, col 24 to line 200, col 29 of module sudoku: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 201, col 24 to line 201, col 33 of module sudoku: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 202, col 24 to line 202, col 36 of module sudoku: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 203, col 24 to line 203, col 51 of module sudoku: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 204, col 13 to line 205, col 54 of module sudoku: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_12 line 207, col 1 to line 207, col 6 of module sudoku>: 4:8
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 207, col 14 to line 207, col 26 of module sudoku: 58
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 207, col 14 to line 207, col 15 of module sudoku: 50
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 208, col 14 to line 208, col 23 of module sudoku: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 209, col 14 to line 209, col 26 of module sudoku: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 210, col 14 to line 211, col 67 of module sudoku: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_8 line 213, col 1 to line 213, col 5 of module sudoku>: 3:6
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 213, col 13 to line 213, col 24 of module sudoku: 52
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 213, col 13 to line 213, col 14 of module sudoku: 46
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 214, col 13 to line 214, col 40 of module sudoku: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 215, col 13 to line 215, col 25 of module sudoku: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 216, col 13 to line 217, col 63 of module sudoku: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_9 line 219, col 1 to line 219, col 5 of module sudoku>: 3:6
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 219, col 13 to line 219, col 24 of module sudoku: 49
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 219, col 13 to line 219, col 14 of module sudoku: 43
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 220, col 13 to line 220, col 67 of module sudoku: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 221, col 13 to line 221, col 54 of module sudoku: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 222, col 13 to line 222, col 26 of module sudoku: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 223, col 13 to line 224, col 55 of module sudoku: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_10 line 226, col 1 to line 226, col 6 of module sudoku>: 3:6
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 226, col 14 to line 226, col 26 of module sudoku: 46
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 226, col 14 to line 226, col 15 of module sudoku: 40
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 227, col 14 to line 227, col 55 of module sudoku: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 228, col 14 to line 228, col 27 of module sudoku: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 229, col 14 to line 230, col 64 of module sudoku: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_11 line 232, col 1 to line 232, col 6 of module sudoku>: 3:6
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 232, col 14 to line 232, col 26 of module sudoku: 43
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 232, col 14 to line 232, col 15 of module sudoku: 37
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 233, col 14 to line 233, col 82 of module sudoku: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 234, col 14 to line 234, col 27 of module sudoku: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 235, col 14 to line 236, col 64 of module sudoku: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_13 line 241, col 1 to line 241, col 6 of module sudoku>: 1:2
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 241, col 14 to line 241, col 26 of module sudoku: 36
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 241, col 14 to line 241, col 15 of module sudoku: 34
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 242, col 14 to line 244, col 31 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 245, col 14 to line 245, col 26 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 246, col 14 to line 247, col 63 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Lbl_14 line 249, col 1 to line 249, col 6 of module sudoku>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 249, col 14 to line 249, col 26 of module sudoku: 33
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 250, col 14 to line 251, col 66 of module sudoku: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 252, col 14 to line 252, col 25 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 253, col 14 to line 254, col 70 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Terminating line 257, col 1 to line 257, col 11 of module sudoku>: 0:0
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 257, col 16 to line 257, col 26 of module sudoku: 31
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 257, col 31 to line 257, col 44 of module sudoku: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(32) at 2023-04-10 23:12:04: 32 states generated (717 s/min), 32 distinct states found (717 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+32 states generated, 32 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 2734ms at (2023-04-10 23:12:04)
+@!@!@ENDMSG 2186 @!@!@
